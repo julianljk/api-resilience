@@ -1,0 +1,17 @@
+ProjectManagerSelectedProjectRequest
+{
+    public int? CompanyLocationID { get; set; }
+    public int ContactID { get; set; }
+    public int? ExpenseAllowanceTypeID { get; set; }
+    public bool? FeeAndExpenseCombined { get; set; }
+    public string ExtensionName { get; set; }
+    public int? ExtensionNumber { get; set; }
+    public int? ExtensionTypeID { get; set; }
+    public int? FeeBasisID { get; set; }
+    public decimal? Multiple { get; set; }
+    public int? ProjectManagerContactID { get; set; }
+    public int? GroupCoordinatorContactID { get; set; }
+    public string ProjectName { get; set; }
+    public int? CoreTeamID { get; set; }
+    public int? DivisionID { get; set; }
+}
